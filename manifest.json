@@ -1,0 +1,13 @@
+{
+  "manifest_version": 3,
+  "name": "Markdown Previewer Async",
+  "version": "1.0",
+
+  "description": "A simple Markdown previewer that converts Markdown to HTML asynchronously.",
+  "content_scripts": [
+    {
+      "matches": ["*://classroom.itsasync.fr/work"],
+      "js": ["script.js"]
+    }
+  ]
+}
